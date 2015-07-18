@@ -277,3 +277,29 @@ textarea {
         page-break-after: avoid;
     }
 }
+p{
+    background-color: orange;
+    margin:0;
+    transition: all 0.5s;
+}
+p:hover{
+    border:10px solid blue;
+    background-color: turquoise;
+}
+strong{
+    background-color: yellow;
+}
+em strong{
+    background-color: green;
+}
+.bunny{
+    background-color: purple;
+}
+img, video{
+    border-radius:1000000000000000000000000000000000000000000px;
+    transition: all 1s;
+}
+img:hover, video:hover{
+    transform: rotate(180deg);
+
+}
